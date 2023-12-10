@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="logo.png">
+
+</head>
+
+<body style="background-color: rgb(32, 31, 31);">
+
+  <nav class="navbar1" style="background-color: rgb(32, 31, 31);">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="logo">
+            <a href="index.html">
+              <img src="logo.png" alt="Logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="menu">
+            <ul>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="systems.html">Anatomy Systems</a></li>
+              <li class="search-icon"><i class="fas fa-search"></i></li>
+              <li class="hamburger-icon"><i class="fas fa-bars" style="color: white;"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div class="centered-text">
+    <h1>Cardiovascular System</h1>
+  </div>
+
+  <div class="center-image" onclick="showOverlay()">
+    <img src="skeleton1.png" alt="Human Skeleton">
+  </div>
+
+  <!-- Additional parts of the system -->
+  <div class="system-parts" id="heart">
+    <img src="Ellipse 9.png" alt="Heart">
+    <p>Heart</p>
+  </div>
+
+  <div class="system-parts" id="arteries">
+    <img src="Ellipse 7.png" alt="Arteries">
+    <p>Arteries</p>
+  </div>
+
+ 
+  <div class="overlay-container" onclick="hideOverlay()">
+    <div class="overlay-content">
+      <span class="close-icon" onclick="hideOverlay()">&times;</span>
+      <img src="s2.png" alt="Overlay Image">
+    </div>
+  </div>
+  <div class="save-for-later-btn" onclick="saveForLater()">
+    <i class="fas fa-save save-for-later-icon"></i> Save for Later
+</div>
+  
+
+ 
+
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>

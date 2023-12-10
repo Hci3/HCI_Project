@@ -1,0 +1,514 @@
+.anatopedia-landing {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .anatopedia-landing .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 2364px;
+    position: relative;
+  }
+  
+  .anatopedia-landing .overlap {
+    position: absolute;
+    width: 1374px;
+    height: 1146px;
+    top: -117px;
+    left: -2px;
+  }
+  
+  .anatopedia-landing .overlap-group {
+    position: absolute;
+    width: 1374px;
+    height: 1146px;
+    top: 0;
+    left: 0;
+  }
+  
+  .anatopedia-landing .overlap-2 {
+    position: absolute;
+    width: 1109px;
+    height: 1146px;
+    top: 0;
+    left: 0;
+  }
+  
+  .anatopedia-landing .image-removebg {
+    position: absolute;
+    width: 854px;
+    height: 924px;
+    top: 216px;
+    left: 255px;
+  }
+  
+  .anatopedia-landing .img {
+    position: absolute;
+    width: 711px;
+    height: 1146px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .anatopedia-landing .group {
+    position: absolute;
+    width: 295px;
+    height: 92px;
+    top: 780px;
+    left: 90px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+  }
+  
+  .anatopedia-landing .text-wrapper {
+    position: absolute;
+    top: 25px;
+    left: 41px;
+    background: linear-gradient(180deg, rgb(9, 93, 154) 0%, rgb(204, 10, 54) 50.21%, rgb(240.79, 132.54, 11.55) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .about-us-wrapper {
+    position: absolute;
+    width: 135px;
+    height: 51px;
+    top: 1026px;
+    left: 90px;
+    background-color: #d9d9d9;
+    border-radius: 18px;
+  }
+  
+  .anatopedia-landing .about-us {
+    position: absolute;
+    top: 11px;
+    left: 35px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .anatopedia-landing .systems-wrapper {
+    position: absolute;
+    width: 129px;
+    height: 51px;
+    top: 1026px;
+    left: 240px;
+    background-color: #d9d9d9;
+    border-radius: 18px;
+  }
+  
+  .anatopedia-landing .systems {
+    position: absolute;
+    width: 75px;
+    top: 11px;
+    left: 28px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .exploring-the {
+    position: absolute;
+    width: 615px;
+    top: 309px;
+    left: 79px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 24px;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .span {
+    color: #000000;
+    letter-spacing: 8.16px;
+  }
+  
+  .anatopedia-landing .text-wrapper-2 {
+    color: #ffffff;
+    letter-spacing: 8.16px;
+  }
+  
+  .anatopedia-landing .text-wrapper-3 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #920000;
+    font-size: 92px;
+    letter-spacing: 0;
+  }
+  
+  .anatopedia-landing .p {
+    position: absolute;
+    width: 409px;
+    top: 643px;
+    left: 94px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6b5858;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45.6px;
+  }
+  
+  .anatopedia-landing .overlap-group-wrapper {
+    position: absolute;
+    width: 307px;
+    height: 124px;
+    top: 122px;
+    left: 21px;
+  }
+  
+  .anatopedia-landing .overlap-group-2 {
+    position: relative;
+    width: 305px;
+    height: 124px;
+  }
+  
+  .anatopedia-landing .image-removebg-2 {
+    position: absolute;
+    width: 196px;
+    height: 124px;
+    top: 0rem;
+    left: -2rem;
+    object-fit: cover;
+  }
+  
+  .anatopedia-landing .text-wrapper-4 {
+    position: absolute;
+    top: 38px;
+    left: 147px;
+    background: linear-gradient(180deg, rgb(9, 93, 154) 0%, rgb(204, 10, 54) 50.21%, rgb(240.79, 132.54, 11.55) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .frame {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 32px;
+    position: absolute;
+    top: 141px;
+    left: 906px;
+  }
+  
+  .anatopedia-landing .group-2 {
+    position: relative;
+    width: 468px;
+    height: 49px;
+  }
+  
+  .anatopedia-landing .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .anatopedia-landing .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .anatopedia-landing .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #816868;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #816767;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .group-3 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .anatopedia-landing .icon-menu {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 6px;
+    left: 428px;
+  }
+  
+  .anatopedia-landing .group-4 {
+    position: absolute;
+    width: 116px;
+    height: 103px;
+    top: 578px;
+    left: 1120px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+  }
+  
+  .anatopedia-landing .vector {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 21px;
+    left: 40px;
+  }
+  
+  .anatopedia-landing .text-wrapper-7 {
+    position: absolute;
+    top: 73px;
+    left: 12px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17.1px;
+    white-space: nowrap;
+  }
+  
+  .anatopedia-landing .group-5 {
+    position: absolute;
+    width: 242px;
+    height: 103px;
+    top: 443px;
+    left: 1120px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+  }
+  
+  .anatopedia-landing .vuesax-outline {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 25px;
+    left: 102px;
+  }
+  
+  .anatopedia-landing .text-wrapper-8 {
+    position: absolute;
+    top: 73px;
+    left: 62px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17.1px;
+    white-space: nowrap;
+  }
+  
+  .anatopedia-landing .group-6 {
+    position: absolute;
+    width: 116px;
+    height: 103px;
+    top: 578px;
+    left: 1246px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+  }
+  
+  .anatopedia-landing .vector-2 {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    top: 24px;
+    left: 36px;
+  }
+  
+  .anatopedia-landing .text-wrapper-9 {
+    position: absolute;
+    top: 73px;
+    left: 26px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17.1px;
+    white-space: nowrap;
+  }
+  
+  .anatopedia-landing .group-7 {
+    position: absolute;
+    width: 116px;
+    height: 103px;
+    top: 713px;
+    left: 1246px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+  }
+  
+  .anatopedia-landing .game-icons {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 19px;
+    left: 29px;
+  }
+  
+  .anatopedia-landing .text-wrapper-10 {
+    position: absolute;
+    top: 73px;
+    left: 27px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17.1px;
+    white-space: nowrap;
+  }
+  
+  .anatopedia-landing .text-wrapper-11 {
+    position: absolute;
+    top: 1162px;
+    left: 271px;
+    background: linear-gradient(180deg, rgb(9, 93, 154) 0%, rgb(204, 10, 54) 50.21%, rgb(240.79, 132.54, 11.55) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .overlap-3 {
+    position: absolute;
+    width: 1468px;
+    height: 779px;
+    top: 1280px;
+    left: 5px;
+  }
+  
+  .anatopedia-landing .overlap-4 {
+    position: absolute;
+    width: 1468px;
+    height: 779px;
+    top: 0;
+    left: 0;
+  }
+  
+  .anatopedia-landing .text-wrapper-12 {
+    position: absolute;
+    width: 549px;
+    top: 109px;
+    left: 471px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #645656;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .anatopedia-landing .focused {
+    position: absolute;
+    width: 525px;
+    height: 779px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .anatopedia-landing .focused-2 {
+    position: absolute;
+    width: 585px;
+    height: 779px;
+    top: 0;
+    left: 883px;
+    object-fit: cover;
+  }
+  
+  .anatopedia-landing .start-journey-wrapper {
+    position: absolute;
+    width: 295px;
+    height: 92px;
+    top: 365px;
+    left: 588px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+  }
+  
+  .anatopedia-landing .copyright-anatopedia {
+    position: absolute;
+    width: 1271px;
+    top: 2132px;
+    left: 88px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #675c5c;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .button {
+    background-color: transparent;
+    border: 2px solid rgba(76, 175, 79, 0); /* Add border for better visibility */
+    color: #ffffff00; /* Text color */
+    padding: 0px 0px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition effect */
+    }
+
+    /* Hover effect */
+    .button:hover {
+    /* background-color: transparent; */
+    color: #816767;
+    text-decoration-line: underline;
+    transition: color 0.3s ease; /* Smooth transition effect */
+    }

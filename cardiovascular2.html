@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="cardiovascular2.css" />
+    <style>
+      body {
+          margin: 0;
+          font-family: 'Arial', sans-serif;
+          height: 100vh;
+          width: 90vh;
+      }
+
+      .popup-container {
+          display: none;
+          position: fixed;
+          top: 4rem;
+          right: 0rem;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          z-index: 1000;
+          width: 358px;
+          height: 776px;
+          max-height: 80vh;
+          overflow-y: auto;
+          background: linear-gradient(to bottom, #DA7568, #76A6CB, #5B4E40);
+      }
+
+      .menu-icon {
+          cursor: pointer;
+          background-color: transparent;
+          font-size: 24px;
+          position: relative;
+          top: 0rem;
+          right: 0rem;
+          z-index: 1001;
+          border: 2px solid rgba(76, 175, 79, 0); /* Add border for better visibility */
+          color: #ffffff00; /* Text color */
+          padding: 0px 0px;
+      }
+
+      .menu-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+      }
+
+      .menu-item {
+        font-size: 16px;
+          padding: 10px;
+          cursor: pointer;
+          border-bottom: 1px solid #ccc;
+          background-color: transparent;
+          color: inherit; /* Inherit text color from the parent */
+          border:none;
+
+      }
+
+      .menu-logo {
+          max-width: 50px;
+          max-height: 50px;
+      }
+
+      .logout {
+          cursor: pointer;
+          padding: 10px;
+          border-top: 1px solid #ccc;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="property">
+      <div class="overlap">
+        <div class="overlap-group">
+          <img class="polygon" src="C:\xampp\htdocs\anatopedia\images\Polygon 6.png" />
+          <img class="image-removebg" src="C:\xampp\htdocs\anatopedia\images\image-removebg-preview (7) 2.png" />
+          <div class="frame">
+            <div class="text-wrapper">VEINS</div>
+            <p class="div">Veins collect oxygen-poor blood and return it to your heart.</p>
+          </div>
+          <div class="frame-2">
+            <div class="text-wrapper">HEART</div>
+            <p class="div">Organ that serves as a pump to circulate the blood</p>
+          </div>
+          <div class="frame-3">
+            <div class="text-wrapper">ARTERIES</div>
+            <p class="p">Arteries transport oxygenated blood to and fro to every organ of the body.</p>
+          </div>
+          <img class="ellipse" src="C:\xampp\htdocs\anatopedia\images\Ellipse 8 (1).png" />
+          <img class="img" src="C:\xampp\htdocs\anatopedia\images\Ellipse 7.png" />
+          <img class="ellipse-2" src="C:\xampp\htdocs\anatopedia\images\Ellipse 9.png" />
+          <img class="line" src="img/line-3.svg" />
+          <div class="group">
+            <div class="div-wrapper"><div class="text-wrapper-2">Arteries</div></div>
+          </div>
+          <img class="line-2" src="img/line-4.svg" />
+          <div class="overlap-wrapper">
+            <div class="div-wrapper"><div class="text-wrapper-3">Veins</div></div>
+          </div>
+          <img class="polygon-2" src="C:\xampp\htdocs\anatopedia\images\Polygon 5.png" />
+          <img class="polygon-3" src="C:\xampp\htdocs\anatopedia\images\Polygon 7.png" />
+          <div class="ellipse-3"></div>
+          <div class="ellipse-4"></div>
+          <div class="ellipse-5"></div>
+        </div>
+        <div class="overlap-group-wrapper">
+            <form><button class="button">
+          <div class="overlap-2">
+            <div class="start-journey-wrapper"><div class="start-journey">Save for Later</div></div>
+            <img class="fontisto-favorite" src="C:\xampp\htdocs\anatopedia\images\fontisto_favorite.png" />
+          </div>
+        </button></form>
+        </div>
+      </div>
+      <div class="overlap-3">
+        <div class="text-wrapper-4">Cardiovascular system</div>
+        <div class="group-wrapper">
+          <div class="group-2">
+            <div class="frame-4">
+              <div class="frame-5"><form action="C:\xampp\htdocs\anatopedia\blog.html"><button class="button"><div class="text-wrapper-5">Blogs</div></div></button></form>
+              <form action="menu.html"><button class="button"><div class="text-wrapper-6">Anatomy Systems</div></button></form>
+              <form><button class = "button"><img class="group-3" src="C:\xampp\htdocs\anatopedia\images\Group 7 (1).png" /></button></form>
+            </div>
+            <form><button type="button" class="menu-icon" onclick="togglePopup()">&#9776;<img class="icon-menu"
+              src="C:\xampp\htdocs\anatopedia\images\icon _menu_.png" /></button></form>
+
+<div class="popup-container" id="popup">
+<ul class="menu-list">
+  <li class="menu-item">Zaynah Imran</li>
+  <li class="menu-item">
+    <img src="C:\xampp\htdocs\anatopedia\images\fontisto_favorite.png" alt="Saved Pages Logo" class="menu-logo"> Saved Pages
+  </li>
+  <form action="C:\xampp\htdocs\anatopedia\aboutus.html"><button class="menu-item">About Us</button></form>
+  <form action="C:\xampp\htdocs\anatopedia\contactus.html"><button class="menu-item">Contact Us</button></form>
+  <form action = "C:\xampp\htdocs\anatopedia\index.html"><button class="menu-item" onclick="logout()">Log Out</button></form>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="group-4">
+        <div class="overlap-group-2">
+        <form action="C:\xampp\htdocs\anatopedia\index.html"><button class = "button">
+          <img class="image-removebg-2" src="C:\xampp\htdocs\anatopedia\images\logo.png"/>
+          <div class="text-wrapper-7">ANATOPEDIA</div>
+        </button></form>
+        </div>
+      </div>
+    </div>
+    <script>
+      function togglePopup(event) {
+     var popup = document.getElementById('popup');
+     popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'block' : 'none';
+     event.preventDefault(); // Prevent form submission
+ }
+ 
+ 
+       function logout() {
+           // Add logout functionality here
+           alert('Logging out...');
+       }
+   </script>
+  </body>
+</html>
